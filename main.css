@@ -1,0 +1,93 @@
+body {
+    font-family: calibri;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.head {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1e88e5;
+    display: flex;
+    align-items: center;
+    margin: 30px
+
+    ;
+}
+.year1 {
+    color: black;
+}
+.year {
+    color: #1e88e5;
+    font-weight: bold;
+}
+
+.title {
+    color: #1e88e5;
+}
+  
+  .calender {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 32.5%);
+    gap: 1rem;
+    place-content: center;
+  }
+  
+  .header {
+    background-color: rgba(135, 187, 219, 0.979);
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td {
+    text-align: center;
+  }
+  
+  .days {
+    background-color: rgba(132, 182, 212, 0.74);
+  }
+  
+  .holidays {
+    background-color: rgb(255, 255, 176);
+    color: rgba(175, 235, 253, 0.5);
+  }
+  
+  .weekend {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .school {
+    background-color: rgb(140, 226, 255);
+  }
+  
+  .exam {
+    background-color: rgba(201, 175, 129, 0.582);
+  }
+  .sp {
+    background-color: rgba(255, 166, 0, 0.575);
+  }
+  .poe {
+    background-color: rgba(87, 0, 87, 0.466);
+  }
+  .training1 {
+    background-color: white;
+border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+    flex: 1;
+}
+  .training {
+    display: grid;
+    grid-template-columns: repeat(2,68%);
+    justify-content: center;
+   gap: 1rem;
+    margin: 10px;
+  }
+  
